@@ -1,17 +1,73 @@
-
-
-
-
-
-
-/* General Styling */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: var(--theme-secondary-color);
-    color: var(--theme-highlight-color);
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--theme-secondary-font-color);
+  color: var(--theme-highlight-color);
+}
+
+
+:root {
+  --theme-primary-color: #460073;
+  --theme-secondary-color: #f4f4f4;
+  --theme-highlight-color: #a100ff;
+  --theme-primary-font-color: #FFFFFF;
+  --theme-secondary-font-color: #1C2121;
+  --theme-highlight-font-color: #FFFFFF;
+}
+
+
+p {
+  color: var(--theme-highlight-font-color);
+}
+
+h {
+  color: var(--theme-highlight-font-color);
+}
+
+
+.title {
+  border: 2px solid black; 
+  padding: 10px;          
+  margin: 15px;           
+  width: 300px;           
+  height: auto;  
+  border-color: #a100ff;   
+  justify-content: center;
+  justify-items: center;  
+  text-align: center;
+}
+
+
+.center-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact me section Styling */
+
   
   .contact {
     padding: 10px 20px;
@@ -22,15 +78,6 @@ body {
     border-radius: 8px;
   }
   
-
-  :root {
-    --theme-primary-color: #460073;
-    --theme-secondary-color: #f4f4f4;
-    --theme-highlight-color: #a100ff;
-    --theme-primary-font-color: #FFFFFF;
-    --theme-secondary-font-color: #1C2121;
-    --theme-highlight-font-color: #FFFFFF;
-}
 
   .heading {
     text-align: center;
@@ -101,3 +148,31 @@ body {
 }
 
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Styling */
+
+footer {
+  background-color: var(--theme-secondary-font-color);
+  color: var(--theme-highlight-font-color);
+  text-align: center;
+  padding: 1px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 16px;
+}
