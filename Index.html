@@ -7,81 +7,81 @@
     <title>Team 2</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" href="favicon.png" type="image/png">
-
-    
 </head>
+
+
 <body>
+
     <!-- Home Section-->
 
-    
     <div class="center-title">
       <p class="title">How to start a career in IT</p>
+        <img src="favicon.png" alt="logo" style="width: 50px;height: 50px;">
     </div>
 
 
 
-    <h1>INFO</h1>
-    <p>When you want to learn in IT theres alot of different sectors and different applications. 
-        The different sectors in IT are Software developer, Data Analysts, Cyber security and lots more 
-      please go and read our information about our different sectors below</p>
-      
-      
-<h1>Software Developer</h1>
-<p>In the contemporary landscape, the duties and responsibilities of a software developer include designing,
-   creating, testing, and monitoring software programs and applications.
-   These professionals now perform their work across many industries</p>
-  <button onclick=" ">Software Development</button>
+    <div class="info">
+      <h1>INFO</h1>
+        <p>When you want to learn in IT theres alot of different sectors and different applications. 
+          The different sectors in IT are Software developer, Data Analysts, Cyber security and lots more 
+          please go and read our information about our different sectors below.</p>
+    </div>  
 
 
-   <h1>Data Analyst</h1>
-   <p>A data analyst works with the pertinent stakeholders to identify appropriate and necessary data 
-    and reporting requirements,
-     and then they're tasked with turning raw data into relevant and meaningful insights</p>
-     <button onclick=" ">Data Analyst</button>
-     
-     
-     <h1>Cybersecurity</h1>
-     <p>Cyber security is how individuals and organisations reduce the risk of cyber attack.
-       Cyber security's core function is to protect the devices we all use
+  <div class="roles">     
+
+    <h1>Software Developer</h1>
+      <p>In the contemporary landscape, the duties and responsibilities of a software developer include designing,
+        creating, testing, and monitoring software programs and applications.
+        These professionals now perform their work across many industries</p>
+    <a href="Resource.html" class="FAQ-button">Software Developer</a>
+
+    <h1>Data Analyst</h1>
+      <p>A data analyst works with the pertinent stakeholders to identify appropriate and necessary data 
+        and reporting requirements,
+        and then they're tasked with turning raw data into relevant and meaningful insights</p>
+    <a href="Resource.html" class="FAQ-button">Data Analyst</a>        
+        
+    <h1>Cybersecurity</h1>
+      <p>Cyber security is how individuals and organisations reduce the risk of cyber attack.
+        Cyber security's core function is to protect the devices we all use
         (smartphones, laptops, tablets and computers),
-       and the services we access - both online and at work - from theft or damage.</p>
-       <button onclick=" ">Cybersecurity</button>
+        and the services we access - both online and at work - from theft or damage.</p>
+    <a href="Resource.html" class="FAQ-button">Cybersecurity</a>
 
-<h1>IT support & Administration</h1>
-<p>Providing technical assistance to employees. 
-  Updating and maintaining company systems and networks. Installing and configuring software.
-   Managing user access permissions and credentials.</p>
-   <button onclick=" ">IT support & Administration</button>
-   
-   
-   <h1>Cloud Computing & DevOps</h1>
-<p>When DevOps teams work in the cloud, they enjoy easier access to scalable hardware resources 
-  that can help build, test, and deploy new updates and offerings more quickly.</p>
-  <button onclick=" ">Cloud Computing & DevOps</button>
+    <h1>IT support & Administration</h1>
+      <p>Providing technical assistance to employees. 
+        Updating and maintaining company systems and networks. Installing and configuring software.
+        Managing user access permissions and credentials.</p>
+      <a href="Resource.html" class="FAQ-button">IT support & Administration</a>      
+      
+    <h1>Cloud Computing & DevOps</h1>
+      <p>When DevOps teams work in the cloud, they enjoy easier access to scalable hardware resources 
+        that can help build, test, and deploy new updates and offerings more quickly.</p>
+    <a href="Resource.html" class="FAQ-button">Cloud Computing & DevOps</a>
 
-
-  <h1>Networking & Infrastructure</h1>
-  <p>Network infrastructure refers to the hardware and software that enable network connectivity
-     and communication between users, devices, apps, the internet, and more.</p>
-     <button onclick=" ">Networking & Infrastructure</button>
+    <h1>Networking & Infrastructure</h1>
+      <p>Network infrastructure refers to the hardware and software that enable network connectivity
+        and communication between users, devices, apps, the internet, and more.</p>
+    <a href="Resource.html#NI" class="FAQ-button">Networking & Infrastructure</a>
 
 
-<h1>IT Projects & Business Roles</h1>
-<p>IT project managers play a crucial role by delegating tasks to hit milestones
-   and keeping communication open among all team members.
-   Use team collaboration software to ensure everyone is on the same page about who's 
-   doing what by when</p>
+    <h1>IT Projects & Business Roles</h1>
+      <p>IT project managers play a crucial role by delegating tasks to hit milestones
+        and keeping communication open among all team members.
+        Use team collaboration software to ensure everyone is on the same page about who's 
+        doing what by when</p>
+      <a href="Resource.html" class="FAQ-button">IT Projects & Business Roles</a>
+  
+  </div>
 
-
-   <h1>
-
-
-
-    <a href="faq.html" class="FAQ-button">FAQ</a>
-
+    <div class="info">
+      <a href="faq.html" class="FAQ-button">FAQ</a>
+    </div>
     <!-- contact section -->
     <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Us</span></h2>
+        <h2 class="heading">Contact Us</h2>
   
         <form action="https://formspree.io/f/xjkyrqzo" method="POST">
           <div class="input-box">
@@ -121,13 +121,13 @@
             class="btn" 
             id="submit-button">Submit
             </button>
-
           </div>
         </form>
       </section>
 
       
-
+  <!-- Go Back to Top Button -->
+  <button id="backToTop" onclick="scrollToTop()">↑</button>
 
 
 
@@ -136,23 +136,12 @@
       <div class="footer-text">
         <p> Copyleft 2025 by Team 2 in partnership with Accenture.</p>
       </div>
-
-      
     </footer>
 
 
 
-      
-
-      <script src="script.js"></script>
+  <script src="script.js"></script>
 
 </body>
 </html>
 
-<!-- FAQ: 
- Do you need previous experience in tech to be able to pursue a career in it?
- No! Anyone can start without any prior experience with tech,
- normally the requirements would be things such as a passing grade in GCSE Maths and English,  
- as long as you are keen to learn then you'll be well on your way.
-Example of an FAQ written in comments
--->
