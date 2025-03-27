@@ -11,8 +11,15 @@ function toggleDetails(button) {
 
 
 
+
+
 function scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+
+function visitPage(){
+    window.location.assign('faq.html');
 }
 
 
