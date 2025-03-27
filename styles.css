@@ -4,6 +4,7 @@ body {
   padding: 0;
   background-color: var(--theme-secondary-font-color);
   color: var(--theme-highlight-color);
+  
 }
 
 
@@ -30,12 +31,14 @@ h {
   border: 2px solid black; 
   padding: 10px;          
   margin: 15px;           
-  width: 300px;           
+  width: 400px;           
   height: auto;  
   border-color: #a100ff;   
-  justify-content: center;
-  justify-items: center;  
+  justify-content: left;
+  justify-items: left;  
   text-align: center;
+  font-size: 25px;
+  
 }
 
 
@@ -45,58 +48,88 @@ h {
   align-items: center;
 }
 
-
-
-
-
-
-
-/*! FAQ section Styling */
-
-.FAQ-button {
-  font-size: 20px; 
-  font-family: sans-serif;
-  padding: 10px 30px; 
-  cursor: pointer;
-  position: relative;
-  left: 2%;
-  top: 10%;
-  color: var(--theme-highlight-color);
-  border-radius: 5px; 
-  background-color: var(--theme-highlight-font-color); 
-  transition: background-color 0.3s; 
+.center-title{
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px var(--theme-highlight-font-color);
 }
 
-.FAQ-button:hover {
-  background-color: var(--theme-primary-color); 
-
+.info  {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px var(--theme-highlight-font-color);
 }
 
-.more-details {
-  display: none; /* Initially hide the additional content */
-  margin-top: 10px;
-  padding: 10px;
-  background-color:var(--theme-secondary-font-color);
-  border-left: 3px solid var(--theme-primary-color);
+.roles  {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px var(--theme-highlight-font-color);
 }
 
-.read-more-btn {
-  margin-top: 10px;
-  padding: 5px 10px;
-  font-size: 14px;
-  background-color: var(--theme-highlight-color);
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
+
+
+
+
+
+
+
+
+
+/*! Resource Page Styling */
+
+.resource-grid {
+  margin: 0 0px;
+  padding: 0 20px;
 }
 
-.read-more-btn:hover {
+nav {
   background-color: var(--theme-primary-color);
+  padding: 1em;
 }
 
+nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
+nav a {
+  color: var(--theme-primary-font-color);
+  text-decoration: none;
+  padding: .5em 1em;
+}
+
+a:link {
+  color: var(--theme-highlight-font-color);
+}
+
+a:hover {
+  color: var(--theme-highlight-color);
+}
+
+section {
+  padding: 10px;
+  margin: 10px;  
+}
+
+.resource-title{
+  padding-bottom: 10px;
+}
+
+.header-logo {
+  position:absolute;
+  left: 90%;
+  font-size: 100%;
+  margin: 0 auto;
+  max-width: 980px;
+}
 
 
 
@@ -234,20 +267,49 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*! FAQ Styling */
+
+
+.FAQ-button {
+  font-size: 20px; 
+  font-family: sans-serif;
+  padding: 10px 30px; 
+  cursor: pointer;
+  color: var(--theme-highlight-color);
+  border-radius: 5px; 
+  background-color: var(--theme-highlight-font-color); 
+  transition: background-color 0.3s; 
+  
+}
+
+.FAQ-button:hover {
+  background-color: var(--theme-primary-color); 
+
+}
+
+.more-details {
+  display: none; /* Initially hide the additional content */
+  margin-top: 10px;
+  padding: 10px;
+  background-color:var(--theme-secondary-font-color);
+  border-left: 3px solid var(--theme-primary-color);
+}
+
+.read-more-btn {
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: var(--theme-highlight-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.read-more-btn:hover {
+  background-color: var(--theme-primary-color);
+}
 
 .faq-container {
   max-width: 800px;
