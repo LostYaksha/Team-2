@@ -337,9 +337,9 @@ footer {
   font-family: sans-serif;
   padding: 10px 30px; 
   cursor: pointer;
-  color: var(--theme-highlight-color);
+  color: var(--theme-primary-font-color);
   border-radius: 5px; 
-  background-color: var(--theme-highlight-font-color); 
+  background-color: var(--theme-primary-color); 
   transition: background-color 0.3s; 
   
 }

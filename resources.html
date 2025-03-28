@@ -12,28 +12,33 @@
  and viewpoint allowing the page to change depending on what device the website is being viewed upon-->
 </head>
 <body>
-    <div class="header-logo">
-        <img src="favicon.png" alt="logo" style="width: 50px;height: 50px;">
+    <header class="header">
+        <div class="header-logo">
+          <img src="favicon.png" alt="logo" style="width: 60px; height: 60px;">
         </div>
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="Resource.html">Careers</a>
-            </li>
-            <li>
-                <a href="portfolio.html">Portfolio</a>
-            </li>
-            <li>
-                <a href="faq.html">FAQ</a>
-            </li>
-            <li>
-                <a href="index.html#contact">Contact Us</a>
-            </li>
-        </ul>
-    </nav>
+        <nav class="navbar">
+          <a href="index.html#home" >Home</a>
+          <div class="dropdown">
+            <a href="resources.html" class="dropbtn">Careers</a>
+            <div class="dropdown-content">
+              <a href="resources.html">Software Developer</a>
+              <a href="resources.html#DA">Data Analyst</a>
+              <a href="resources.html#CS">Cybersecurity</a>
+              <a href="resources.html#SA">IT Support & Administration</a>
+              <a href="resources.html#CD">Cloud Computing & DevOps</a>
+              <a href="resources.html#NI">Networking & Infrastrcture</a>
+              <a href="resources.html#PB">IT Projects and Business Roles</a>
+            </div>
+          </div>
+  
+          <a href="/portfolio.html">Portfolio</a>
+          <a href="/faq.html">FAQ</a>
+          <a href="index.html#contact">Contact Us</a>
+          
+         
+  
+        </nav>
+      </header>
 
     <main class="resource-grid">
         <div class="roles">
